@@ -6,6 +6,8 @@ export default class Header extends Component {
         return (
             <div className="header">
                 <h1>Employee Directory</h1>
+                <img className="logo" src="./images/red-folder-business-user.png" alt="Employee Directory Logo"></img>
+                <p>Hover over NAME heading and click to sort by First Name</p>
             </div>
         )
     }
