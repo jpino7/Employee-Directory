@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from "./components/Header";
-
-// import logo from './logo.svg';
+import Main from "./components/Main";
 import './App.css';
 import Wrapper from './components/Wrapper';
 
@@ -10,6 +9,7 @@ function App() {
     <div className="App">
       <Wrapper>
         <Header />
+        <Main />
       </Wrapper>
     </div>
   );

@@ -99,7 +99,6 @@ export default class DataArea extends Component {
                     />
                 </div>
             </>
-
-        )
+        );
     }
 }
