@@ -1,4 +1,6 @@
 .header {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
     padding: 30px 0;
     color: #ffffff;
     background-color: black;
@@ -6,4 +8,10 @@
     text-align: center;
     border-bottom: 10px solid #B30600;
     margin-bottom: 10px;
+}
+
+.logo {
+    border-radius: 10px;
+    height: 220px;
+    width: 220px;
 }
